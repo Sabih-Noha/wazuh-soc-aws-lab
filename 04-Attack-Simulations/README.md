@@ -1,47 +1,25 @@
-# 💣 Attack Simulations
+---
 
-This section documents real cyberattack simulations detected by Wazuh.
+## 🧨 Attack Evidence
+
+### 🔴 Linux SSH Bruteforce
+![Linux Bruteforce](images/linux-ssh-bruteforce.png)
+![Linux Alerts](images/linux-alerts.png)
 
 ---
 
-## 1️⃣ Linux SSH Bruteforce
-
-**Description:** Multiple failed SSH login attempts using invalid users.
-
-**Detection:**
-- sshd: Attempt to login using a non-existent user
-
-**MITRE:** T1110 – Brute Force
+### 🟠 Privilege Escalation
+![Priv Esc](images/linux-priv-esc.png)
 
 ---
 
-## 2️⃣ Privilege Escalation
-
-**Description:** Use of sudo to gain root privileges.
-
-**Detection:**
-- Successful sudo to ROOT executed
-
-**MITRE:** T1068 – Privilege Escalation
+### 🟡 File Integrity Monitoring (FIM)
+![FIM](images/linux-fim.png)
 
 ---
 
-## 3️⃣ File Integrity Monitoring (FIM)
-
-**Description:** Modification of /etc/passwd detected.
-
-**Detection:**
-- File modified: /etc/passwd
-
-**MITRE:** T1005 – Data from Local System
-
----
-
-## 4️⃣ Windows RDP Bruteforce
-
-**Description:** Multiple failed RDP logins.
-
-**Detection:**
-- Logon failure – Unknown user or bad password
-
-**MITRE:** T1110 – Brute Force
+### 🔵 Windows Attacks
+![Windows Alerts](images/windows-alerts.png)
+![User Add](images/windows-user-add.png)
+![Admin Group](images/windows-admin-group.png)
+![Agent Install](images/windows-agent-install.png)
