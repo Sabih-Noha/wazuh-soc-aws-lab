@@ -3,7 +3,7 @@
 ## 🖼️ Installation Proof
 
 ### 1️⃣ EC2 Instances Running
-![EC2](03-Wazuh-Installation/images/inst.PNG)
+![EC2](03-Wazuh-Installation/images/ins.PNG)
 
 ### 2️⃣ Security Groups Configuration
 ![SG](03-Wazuh-Installation/images/GF.PNG)
