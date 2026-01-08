@@ -3,13 +3,12 @@
 ## 🧨 Attack Evidence
 
 ### 🔴 Linux SSH Bruteforce
-![Linux Bruteforce](images/linux-ssh-bruteforce.png)
 ![Linux Alerts](images/linux-alerts.png)
 
 ---
 
-### 🟠 Privilege Escalation
-![Priv Esc](images/linux-priv-esc.png)
+### 🟠 Privilege Escalation (sudo)
+![Privilege Escalation](images/linux-priv-esc.png)
 
 ---
 
@@ -18,8 +17,15 @@
 
 ---
 
+### 🟢 Linux Agent Active
+![Linux Agent](images/linux-agent-active.png)
+
+---
+
 ### 🔵 Windows Attacks
-![Windows Alerts](images/windows-alerts.png)
-![User Add](images/windows-user-add.png)
-![Admin Group](images/windows-admin-group.png)
-![Agent Install](images/windows-agent-install.png)
+
+### Agent Installation
+![Windows Agent](images/windows-agent-install.png)
+
+### Windows Security Events
+![Windows Alerts](images/windows agent.png)
